@@ -1,0 +1,20 @@
+{
+    "name": "dyon/trinitycore-authdriver",
+    "description": "TrinityCore auth system implementation.",
+    "authors": [
+        {
+            "name": "Dyon",
+            "email": "hello@dyon.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dyon\\TrinitycoreAuthdriver": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
